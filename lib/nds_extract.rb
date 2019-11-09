@@ -48,5 +48,5 @@ def total_gross(source)
   dir.each do |key, value|
     total += value
   end
-
+total
 end

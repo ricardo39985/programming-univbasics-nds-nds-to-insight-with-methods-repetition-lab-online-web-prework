@@ -44,7 +44,8 @@ def total_gross(source)
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
   total = 0
-  directors_totals(source).each do |key, value|
+  dir = directors_totals(source)
+  dir.each do |key, value|
     total += value
   end
 

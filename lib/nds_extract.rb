@@ -28,7 +28,7 @@ def list_of_directors(source)
   # Write this implementation
   result = []
   for i in source do
-  reslut.push(i[:name])
+  result.push(i[:name])
   end
   result
 end
